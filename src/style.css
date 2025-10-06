@@ -1,5 +1,27 @@
 body {
   background-color: lightblue;
-  font-family: sans-serif;
-  padding: 0 20px;
+  font-family: Arial, sans-serif;
+  padding: 40px 20px;         /* adds space from the top */
+  display: flex;
+  flex-direction: column;     /* stack elements vertically */
+  justify-content: flex-start;/* align items to the top */
+  align-items: center;        /* center horizontally */
+  min-height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #555;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #c67a4b; /* optional hover color */
 }
