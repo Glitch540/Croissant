@@ -1,11 +1,11 @@
 body {
   background-color: lightblue;
   font-family: Arial, sans-serif;
-  padding: 40px 20px;         /* adds space from the top */
+  padding: 40px 20px;        
   display: flex;
-  flex-direction: column;     /* stack elements vertically */
-  justify-content: flex-start;/* align items to the top */
-  align-items: center;        /* center horizontally */
+  flex-direction: column;    
+  justify-content: flex-start;
+  align-items: center;        
   min-height: 100vh;
   margin: 0;
   text-align: center;
@@ -23,5 +23,5 @@ nav a {
 }
 
 nav a:hover {
-  color: #c67a4b; /* optional hover color */
+  color: #c67a4b; 
 }
